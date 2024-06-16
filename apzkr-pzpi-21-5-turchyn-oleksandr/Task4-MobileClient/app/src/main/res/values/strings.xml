@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">FoodAutoPlacer</string>
+    <string name="authentication_username">Username</string>
+    <string name="authentication_password">Password</string>
+    <string name="authentication_authorization">Authorization</string>
+    <string name="authentication_log_in">Log in</string>
+    <string name="authentication_has_no_account">Don\'t you have an account?</string>
+    <string name="authentication_register">Register</string>
+    <string name="title_activity_with_top_menu">ActivityWithTopMenu</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="authentication_registration">Registration</string>
+    <string name="authentication_password_confirmation">Password confirmation</string>
+    <string name="authentication_already_have_account">Already have an account?</string>
+    <string name="authentication_log_in_error">There is no user with the inputted credentials.</string>
+    <string name="sort_by_name">By name</string>
+    <string name="sort_by_rating_asc">Ascending rating</string>
+    <string name="sort_by_rating_desc">Descending rating</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="catalog_filter_type">Type</string>
+    <string name="catalog_filter_popularity">Popularity</string>
+    <string name="catalog_min_rating_value">From</string>
+    <string name="catalog_max_rating_value">To</string>
+    <string name="catalog_rating">Rating</string>
+    <string name="catalog_filtration">Filtration</string>
+    <string name="confirm">Confirm</string>
+    <string name="catalog_filtration_title">Filtration</string>
+    <string name="catalog_item_description">Description</string>
+    <string name="catalog_item_ingredients">Ingredients</string>
+    <string name="price">Price:</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="catalog_item_reports">Reports</string>
+    <string name="write_report_title">Write a report</string>
+    <string name="send_report">Send</string>
+    <string name="authentication_username_placeholder" translatable="false">test_user123</string>
+    <string name="authentication_password_placeholder" translatable="false">your_StRoNg_password</string>
+    <string name="dish_weight_measure">lb</string>
+    <string name="dish_volume_measure">cu ft</string>
+    <string name="dish_search_ingredient_choosing_hint">Choose the ingredients that the dish you want chould contain:</string>
+    <string name="dish_search_missed_hint">Choose the number of ingredients that can e missed in the dish:</string>
+    <string name="dish_search_chosen_ingredients">Chosen ingredients</string>
+    <string name="search_empty">Empty</string>
+    <string name="search_search">Search</string>
+    <string name="search_nothing_found">Unfortunately, nothing found.</string>
+    <string name="dish_search_found_appropriate_dishes">Dishes that contains all the ingredients you have chosed:</string>
+    <string name="dish_search_found_almost_appropriate_dishes">Dishes that that has a couple of missed ingredients:</string>
+    <string name="establishment_search_dish_choosing_hint">Choose the dishes you want to eat:</string>
+    <string name="establishment_search_found_establishments">Found catering establishments:</string>
+    <string name="establishment_search_chosen_dishes">Chosen dishes</string>
+    <string name="cart_dish">Dish</string>
+    <string name="cart_ingredients">Ingredients</string>
+    <string name="cart_ingredient_count">Count</string>
+    <string name="cart_dish_price">Price</string>
+    <string name="cart_total_price">Total price:</string>
+    <string name="cart_empty">Empty</string>
+    <string name="cart_confirm">Confirm</string>
+    <string name="cart_order">Order</string>
+    <string name="menu_catalog">Catalog</string>
+    <string name="menu_dish_search">Dish search</string>
+    <string name="menu_catering_establishment_search">Catering establishment search</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_orders">Orders</string>
+    <string name="order_dishes">Dishes</string>
+    <string name="order_status">Status</string>
+    <string name="order_number_in_queue">Number in queue</string>
+    <string name="order_cooking_time">Getting time</string>
+    <string name="order_refresh">Refresh</string>
+</resources>

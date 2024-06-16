@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/order_item_dishes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:orientation="vertical" />
+
+        <TextView
+            android:id="@+id/order_item_status"
+            android:layout_width="0dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/order_item_number_in_queue"
+            android:layout_width="0dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/order_item_cook_time"
+            android:layout_width="0dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:textSize="13sp"/>
+
+        <ImageView
+            android:id="@+id/order_item_confirm_cooking"
+            android:layout_width="0dp"
+            android:textAlignment="center"
+            android:layout_height="30dp"
+            android:layout_weight="0.7"
+            android:src="@drawable/ic_baseline_check_circle_24" />
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:background="#A1A1A1" />
+
+</LinearLayout>
